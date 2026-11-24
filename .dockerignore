@@ -1,0 +1,13 @@
+.venv/
+.conda/
+.git/
+.claude/
+data/
+notebooks/
+tests/
+**/__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.bat
+*.md
+!README.md

@@ -1,0 +1,249 @@
+{
+ "source": "held-out test split (random_state=42), never seen in training",
+ "ranges": {
+  "radius_mean": {
+   "min": 6.981,
+   "max": 28.11,
+   "mean": 14.12729
+  },
+  "texture_mean": {
+   "min": 9.71,
+   "max": 39.28,
+   "mean": 19.28965
+  },
+  "perimeter_mean": {
+   "min": 43.79,
+   "max": 188.5,
+   "mean": 91.96903
+  },
+  "area_mean": {
+   "min": 143.5,
+   "max": 2501.0,
+   "mean": 654.8891
+  },
+  "smoothness_mean": {
+   "min": 0.05263,
+   "max": 0.1634,
+   "mean": 0.09636
+  },
+  "compactness_mean": {
+   "min": 0.01938,
+   "max": 0.3454,
+   "mean": 0.10434
+  },
+  "concavity_mean": {
+   "min": 0.0,
+   "max": 0.4268,
+   "mean": 0.0888
+  },
+  "concave_points_mean": {
+   "min": 0.0,
+   "max": 0.2012,
+   "mean": 0.04892
+  },
+  "symmetry_mean": {
+   "min": 0.106,
+   "max": 0.304,
+   "mean": 0.18116
+  },
+  "fractal_dimension_mean": {
+   "min": 0.04996,
+   "max": 0.09744,
+   "mean": 0.0628
+  }
+ },
+ "samples": [
+  {
+   "id": 91858,
+   "diagnosis": "Benign",
+   "features": {
+    "radius_mean": 11.75,
+    "texture_mean": 17.56,
+    "perimeter_mean": 75.89,
+    "area_mean": 422.9,
+    "smoothness_mean": 0.1073,
+    "compactness_mean": 0.09713,
+    "concavity_mean": 0.05282,
+    "concave_points_mean": 0.0444,
+    "symmetry_mean": 0.1598,
+    "fractal_dimension_mean": 0.06677
+   }
+  },
+  {
+   "id": 862989,
+   "diagnosis": "Benign",
+   "features": {
+    "radius_mean": 10.49,
+    "texture_mean": 19.29,
+    "perimeter_mean": 67.41,
+    "area_mean": 336.1,
+    "smoothness_mean": 0.09989,
+    "compactness_mean": 0.08578,
+    "concavity_mean": 0.02995,
+    "concave_points_mean": 0.01201,
+    "symmetry_mean": 0.2217,
+    "fractal_dimension_mean": 0.06481
+   }
+  },
+  {
+   "id": 86973702,
+   "diagnosis": "Benign",
+   "features": {
+    "radius_mean": 14.44,
+    "texture_mean": 15.18,
+    "perimeter_mean": 93.97,
+    "area_mean": 640.1,
+    "smoothness_mean": 0.0997,
+    "compactness_mean": 0.1021,
+    "concavity_mean": 0.08487,
+    "concave_points_mean": 0.05532,
+    "symmetry_mean": 0.1724,
+    "fractal_dimension_mean": 0.06081
+   }
+  },
+  {
+   "id": 90250,
+   "diagnosis": "Benign",
+   "features": {
+    "radius_mean": 12.05,
+    "texture_mean": 22.72,
+    "perimeter_mean": 78.75,
+    "area_mean": 447.8,
+    "smoothness_mean": 0.06935,
+    "compactness_mean": 0.1073,
+    "concavity_mean": 0.07943,
+    "concave_points_mean": 0.02978,
+    "symmetry_mean": 0.1203,
+    "fractal_dimension_mean": 0.06659
+   }
+  },
+  {
+   "id": 906616,
+   "diagnosis": "Benign",
+   "features": {
+    "radius_mean": 11.61,
+    "texture_mean": 16.02,
+    "perimeter_mean": 75.46,
+    "area_mean": 408.2,
+    "smoothness_mean": 0.1088,
+    "compactness_mean": 0.1168,
+    "concavity_mean": 0.07097,
+    "concave_points_mean": 0.04497,
+    "symmetry_mean": 0.1886,
+    "fractal_dimension_mean": 0.0632
+   }
+  },
+  {
+   "id": 864033,
+   "diagnosis": "Benign",
+   "features": {
+    "radius_mean": 9.777,
+    "texture_mean": 16.99,
+    "perimeter_mean": 62.5,
+    "area_mean": 290.2,
+    "smoothness_mean": 0.1037,
+    "compactness_mean": 0.08404,
+    "concavity_mean": 0.04334,
+    "concave_points_mean": 0.01778,
+    "symmetry_mean": 0.1584,
+    "fractal_dimension_mean": 0.07065
+   }
+  },
+  {
+   "id": 9012000,
+   "diagnosis": "Malignant",
+   "features": {
+    "radius_mean": 22.01,
+    "texture_mean": 21.9,
+    "perimeter_mean": 147.2,
+    "area_mean": 1482.0,
+    "smoothness_mean": 0.1063,
+    "compactness_mean": 0.1954,
+    "concavity_mean": 0.2448,
+    "concave_points_mean": 0.1501,
+    "symmetry_mean": 0.1824,
+    "fractal_dimension_mean": 0.0614
+   }
+  },
+  {
+   "id": 927241,
+   "diagnosis": "Malignant",
+   "features": {
+    "radius_mean": 20.6,
+    "texture_mean": 29.33,
+    "perimeter_mean": 140.1,
+    "area_mean": 1265.0,
+    "smoothness_mean": 0.1178,
+    "compactness_mean": 0.277,
+    "concavity_mean": 0.3514,
+    "concave_points_mean": 0.152,
+    "symmetry_mean": 0.2397,
+    "fractal_dimension_mean": 0.07016
+   }
+  },
+  {
+   "id": 84610002,
+   "diagnosis": "Malignant",
+   "features": {
+    "radius_mean": 15.78,
+    "texture_mean": 17.89,
+    "perimeter_mean": 103.6,
+    "area_mean": 781.0,
+    "smoothness_mean": 0.0971,
+    "compactness_mean": 0.1292,
+    "concavity_mean": 0.09954,
+    "concave_points_mean": 0.06606,
+    "symmetry_mean": 0.1842,
+    "fractal_dimension_mean": 0.06082
+   }
+  },
+  {
+   "id": 915143,
+   "diagnosis": "Malignant",
+   "features": {
+    "radius_mean": 23.09,
+    "texture_mean": 19.83,
+    "perimeter_mean": 152.1,
+    "area_mean": 1682.0,
+    "smoothness_mean": 0.09342,
+    "compactness_mean": 0.1275,
+    "concavity_mean": 0.1676,
+    "concave_points_mean": 0.1003,
+    "symmetry_mean": 0.1505,
+    "fractal_dimension_mean": 0.05484
+   }
+  },
+  {
+   "id": 8611555,
+   "diagnosis": "Malignant",
+   "features": {
+    "radius_mean": 25.22,
+    "texture_mean": 24.91,
+    "perimeter_mean": 171.5,
+    "area_mean": 1878.0,
+    "smoothness_mean": 0.1063,
+    "compactness_mean": 0.2665,
+    "concavity_mean": 0.3339,
+    "concave_points_mean": 0.1845,
+    "symmetry_mean": 0.1829,
+    "fractal_dimension_mean": 0.06782
+   }
+  },
+  {
+   "id": 8911163,
+   "diagnosis": "Malignant",
+   "features": {
+    "radius_mean": 17.93,
+    "texture_mean": 24.48,
+    "perimeter_mean": 115.2,
+    "area_mean": 998.9,
+    "smoothness_mean": 0.08855,
+    "compactness_mean": 0.07027,
+    "concavity_mean": 0.05699,
+    "concave_points_mean": 0.04744,
+    "symmetry_mean": 0.1538,
+    "fractal_dimension_mean": 0.0551
+   }
+  }
+ ]
+}

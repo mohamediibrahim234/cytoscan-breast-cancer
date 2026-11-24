@@ -1,0 +1,15 @@
+# Runtime dependencies (used by the API and the Docker image).
+# scikit-learn MUST match the version that pickled model/*.pkl (1.8.0),
+# otherwise joblib.load may fail or silently change behaviour.
+scikit-learn==1.8.0
+# 1.16.3 pinned on purpose: newer SciPy wheels get blocked by Windows Smart App
+# Control ("DLL load failed ... Application Control policy has blocked this file").
+scipy==1.16.3
+numpy==2.5.5
+pandas==3.1.1
+joblib==1.6.0
+fastapi==0.165.0
+starlette==1.10.0
+pydantic==2.14.4
+uvicorn[standard]==0.54.0
+python-multipart==0.0.34

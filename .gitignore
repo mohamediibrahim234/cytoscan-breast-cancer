@@ -1,0 +1,41 @@
+# environments
+.venv/
+venv/
+env/
+.conda/
+
+# secrets
+.env
+.env.*
+!.env.example
+
+# dataset (download separately, see README)
+data/
+
+# caches / build
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+build/
+dist/
+*.egg-info/
+
+# temp files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+*.log
+
+# local tooling / OS
+.claude/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+desktop.ini
